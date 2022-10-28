@@ -1,7 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import App from "./App";
-
-
-var mountNode = document.getElementById("app");
-ReactDOM.render(<App name="Jane" />, mountNode);
+function Element({ locale }) {
+return (
+<div>
+   <h1>{new Date().toLocaleTimeString(locale)}</h1>
+  </div>
+  
+    );
+}
+ReactDOM.render(<Element locale="bn-BD" />, document.getElementById('root'));
+  
