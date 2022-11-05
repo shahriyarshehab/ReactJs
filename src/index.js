@@ -1,5 +1,19 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./App";
+
+
+var mountNode = document.getElementById("root");
+ReactDOM.render(<App/>, mountNode);
+
+/*
+ReactDOM.render(
+<React.StrictMode>
+    <app/>
+    </React.StrictMode>,
+    document.getElementById('root'));
+
+
 function Element({ locale }) {
 return (
 <div>
@@ -8,5 +22,5 @@ return (
   
     );
 }
-ReactDOM.render(<Element locale="bn-BD" />, document.getElementById('root'));
-  
+*/
+

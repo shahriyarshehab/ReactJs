@@ -36,7 +36,7 @@ const config = {
     ]
   },
   devServer: {
-    port: 9950,
+    port: 8158,
     static: {
       directory: './dist'
     }
