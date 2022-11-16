@@ -11,9 +11,7 @@ export default App;
 class App extends React.Component {
   render() {
     return (
-      <>
       <Clock locale="en-US"/>
-      </>
     );
   }
 }
